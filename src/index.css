@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.horizontal-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.horizontal-links li {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-section {
+  background: rgb(254, 251, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 251, 251, 0.9472382703081232) 13%,
+    rgba(129, 210, 190, 0.871608018207283) 30%,
+    rgba(0, 187, 209, 0.872079918032787) 57%,
+    rgba(33, 94, 161, 0.895030737704918) 80%
+  );
+}
+
+.Title {
+  margin-top: 3%;
+  margin-left: 30%;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.Image-text {
+  position: relative;
+  color: #ffffff;
+  font-size: 45px;
+  margin-left: 110%;
+
+  width: 30%;
+}
+
+/* Add this CSS to your styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.background {
+  animation: fadeIn 3s ease-in-out; /* Adjust duration and timing as needed */
+}
